@@ -1,0 +1,134 @@
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+
+html{font-family: 'Cormorant Garamond', serif;}
+
+body{
+    background-image: url(Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.body_card{ 
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 700px;
+    margin-left: -200px;
+    margin-top: -350px; 
+}
+
+.body_card{ 
+    background: linear-gradient(53deg, #785500, #c18b04, #e3a303, #2aa534, #1e6924);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+    border-radius: 10%;
+    border: 5px solid white;
+    
+}
+
+.photo img{
+    width:30%;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 100%
+    
+}
+
+
+.competences ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: space-around;
+    
+    padding-left: 0; 
+}
+
+li{}
+
+
+.competences img{
+    height: 6%;
+    
+    
+    
+    
+}
+
+.nom{
+    font-size: 20px;
+    text-align: center;
+    padding: 5%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    color: white;
+}
+
+.fonction{
+    font-size: 17px;
+    text-align: left;
+    color: white;
+    padding-left: 2%
+    
+}
+
+.info h2{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    padding-left: 2%;
+    padding-top: 2%;
+    
+    
+}
+
+.info p{
+    text-align: center;
+    font-size: 15px;
+    width:50%;
+    padding-right: 25%;
+    padding-left: 25%;
+    color:white;
+    margin-top: -2%;
+    
+}
+
+
+
+footer img{
+    width:10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+    
